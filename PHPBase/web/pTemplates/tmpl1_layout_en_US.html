@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+/* Licensed To: ThoughtExecution & 9sistemes
+* Authored By: Rishi Raj Bansal
+* Developed in: Jul-Aug-Sep 2016
+* ===========================================================================
+* This is FULLY owned and COPYRIGHTED by ThoughtExecution
+* This code may NOT be RESOLD or REDISTRUBUTED under any circumstances, and is only to be used with this application
+* Using the code from this application in another application is strictly PROHIBITED and not PERMISSIBLE
+* ===========================================================================
+*/
+-->
+
+<link rel="stylesheet" type="text/css" media="screen" href="../css/publish.css">
+<body style=" background: url(../../web/img/misc/mybg.png) #fff;">
+        
+        <div class="main">
+            
+            <h3 style="text-align: center;font-size: 18px;text-shadow: 1px 1px 1px #ffffff;color: #d98a0b;">{REPORT_NO}</h3>
+            
+            <br/>
+        
+            <div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr style="background: #3677b0;color: #FFF; ">
+                            <th style="color: #FFF;text-align: center">CLIENT</th>
+                            <th style="color: #FFF;text-align: center">WORKER</th>
+                            <th style="color: #FFF;text-align: center">DATE</th>
+                            <th style="color: #FFF;text-align: center">START TIME</th>
+                            <th style="color: #FFF;text-align: center">FINISH TIME</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #fff;">
+                            <td style="padding-top: 5px;text-align: center">{CLIENT}</td>
+                            <td style="padding-top: 5px;text-align: center">{WORKER}</td>
+                            <td style="padding-top: 5px;text-align: center">{SUB_DATE}</td>
+                            <td style="padding-top: 5px;text-align: center">{START_TIME}</td>
+                            <td style="padding-top: 5px;text-align: center">{FINISH_TIME}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div style="margin-top: -19px;">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr style="background: #3677b0;color: #FFF; ">
+                            <th width="30%" style="color: #FFF;text-align: center">SIGNER</th>
+                            <th width="70%" style="color: #FFF;text-align: center">LOCATION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #fff;">
+                            <td style="padding-top: 5px;text-align: center">{SIGNER}</td>
+                            <td style="padding-top: 5px;text-align: center">{LOCATION}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <br/>
+
+            <div style="margin-top: 5px;">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr style="background: #526f89;color: #FFF; ">
+                            <th colspan="2" style="color: #FFF;text-align: left;font-size: 14px;">Tasks Details</th>
+                        </tr>
+                        <tr style="background: #3677b0;color: #FFF; ">
+                            <th width="60%" style="color: #FFF;text-align: center">TASK</th>
+                            <th width="40%" style="color: #FFF;text-align: center">VALUE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #fff;">
+                            <td style="padding-top: 5px;text-align: center">{TASK}</td>
+                            <td style="padding-top: 5px;text-align: center">{TASK_VALUE}</td>
+                        </tr>
+                        {TASKS_LOOP}
+                    </tbody>
+                </table>
+            </div>
+
+            <br/>
+            
+            <div style="margin-top: 5px;">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr style="background: #526f89;color: #FFF; ">
+                            <th colspan="2" style="color: #FFF;text-align: left;font-size: 14px;">Measurement Details</th>
+                        </tr>
+                        <tr style="background: #3677b0;color: #FFF; ">
+                            <th width="60%" style="color: #FFF;text-align: center">MEASURING</th>
+                            <th width="40%" style="color: #FFF;text-align: center">VALUE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #fff;">
+                            <td style="padding-top: 5px;text-align: center">{MEASURING}</td>
+                            <td style="padding-top: 5px;text-align: center">{MEASURING_VALUE}</td>
+                        </tr>
+                        {MEASUREMENTS_LOOP}
+                    </tbody>
+                </table>
+            </div>
+
+            <br/>
+            <div>
+                <h4 style="color: #3d464d; font-size: 14px; margin-bottom: 2px;"> Observations :</h4>
+                {OBSERVATIONS}
+            </div>
+            
+            <br/>
+            <div>
+                <h4 style="color: #3d464d; font-size: 14px; margin-bottom: 2px;"> Incidences :</h4>
+                <span style="color: #fe1818;">{INCIDENCES}</span>
+            </div>
+            
+            <br/>
+            <div>
+                <h4 style="color: #104f89;"> Signature</h4>
+                {SIGN}
+            </div>
+            
+            <br/>
+            <div>
+                <h4 style="color: #104f89;"> Photo Taken</h4>
+                {PHOTO}
+            </div>
+            
+        </div>
+        
+    </body>

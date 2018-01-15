@@ -1,0 +1,132 @@
+/* Licensed To: ThoughtExecution & 9sistemes
+* Authored By: Rishi Raj Bansal
+* Developed in: Jul-Aug-Sep 2016
+ * ===========================================================================
+ * This is FULLY owned and COPYRIGHTED by ThoughtExecution
+ * This code may NOT be RESOLD or REDISTRUBUTED under any circumstances, and is only to be used with this application
+ * Using the code from this application in another application is strictly PROHIBITED and not PERMISSIBLE
+ * ===========================================================================
+*/
+/* 
+    Created on : 2 Oct, 2016, 1:29:52 PM
+    Author     : Rishi Raj
+*/
+
+table {
+  background-color: transparent;
+}
+tr,
+th {
+  text-align: center;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 18px;
+}
+
+tr{
+  padding: 8px;
+  /*line-height: 1.42857143;*/
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+th,
+td{
+  padding: 8px;
+  padding: 4px 8px;
+  /*line-height: 1.42857143;*/
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+th{
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+  font-size: 13px;
+}
+
+.table .table {
+  background-color: #ffffff;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+}
+
+th,
+tr,
+td{
+  border: 1px solid #dddddd;
+}
+
+
+
+.body-header{
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    /*background: url(../img/misc/mybg.png) #fff;*/
+        background-color: #f3f3f3;
+    direction: ltr;
+    
+}
+
+
+.header{
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    display: block;
+    height: 49px;
+    margin: 0;
+    padding: 0 13px 0 0;
+    /*background-color: #f3f3f3;
+    background-image: -moz-linear-gradient(top,#f3f3f3,#e2e2e2);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f3f3f3),to(#e2e2e2));
+    background-image: -webkit-linear-gradient(top,#f3f3f3,#e2e2e2);
+    background-image: -o-linear-gradient(top,#f3f3f3,#e2e2e2);
+    background-image: linear-gradient(to bottom,#f3f3f3,#e2e2e2);
+    background-repeat: repeat-x;*/
+    position: relative;
+    z-index: 905;
+}
+
+.header-h1 {
+    color: #1f629d;
+    font-weight: 500;
+    /*text-shadow: 1px 1px 1px #687784;*/
+    border-bottom: 0.4mm solid #3276b1; 
+    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.footer {
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    color: #1f629d;
+    font-weight: 500;
+    /*text-shadow: 1px 1px 1px #687784;*/
+    border-top: 0.4mm solid #3276b1; 
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.table{
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 18px;
+    border-collapse: collapse;
+    background-color: transparent;
+    border-spacing: 0;
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    font-size: 12px;
+}
+
+.main{
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    font-size: 13px;
+    
+}
